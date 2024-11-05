@@ -121,20 +121,6 @@ export default function Dashboard({ name }) {
                                     <FaArrowRightLong size={30} />
                                 </div>
                             </div>
-                            {/* <div className={style.lowerrightpart1}>
-                                <div style={{ display: 'flex' }}>
-                                    <span style={{ color: 'rgb(56, 183, 128)' }}>
-                                        <GrGroup size={20} />
-                                    </span>
-                                    <div className={style.total}>
-                                        <p>Total Students</p>
-                                        <p>1000</p>
-                                    </div>
-                                </div>
-                                <span style={{ color: 'rgb(241, 226, 169' }}>
-                                    <FaArrowRightLong size={30} />
-                                </span>
-                            </div> */}
                             <div className={style.lowerright2}>
                                 <span style={{ color: 'rgb(223, 89, 80)' }}>
                                     <LuFlag size={20} />
