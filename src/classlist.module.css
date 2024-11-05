@@ -1,0 +1,81 @@
+.classlist {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    height: 100%;
+    box-sizing: border-box;
+    margin-left: 10px;
+  }
+  
+  .listheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .listheader h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+  }
+  
+  .classcount {
+    background-color: #e0e0e0;
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 10px;
+  }
+  
+  .classitems {
+    margin-top: 10px;
+  }
+  
+  .classitem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .classitem:last-child {
+    border-bottom: none;
+  }
+  
+  .classitem.highlighted {
+    background-color: #e8f5e9;
+  }
+  
+  .classcheckbox {
+    margin-right: 10px;
+  }
+  
+  .classdetails {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .classgrade {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .classsection {
+    font-size: 12px;
+    color: #999;
+  }
+
+  .box{
+    height: 10px;
+    width: 10px;
+    border: 1px solid black;
+    margin-right: 10px;
+  }
